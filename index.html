@@ -4,10 +4,19 @@
   <title>Merchant Contribution Demo</title>
 </head>
 <body>
-  <h2>My external website</h2>
-  <div>Come contribute to my ICO!</div>
-  <br/>
-  <script>function opentoken_contribute_click(a,e){e.preventDefault();var link=a.href;window.open(link,'contribute_opentoken','width=500,height=600,toolbar=0,menubar=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="opentoken_contribute_click(this, event);" href="https://opentoken-alex-staging.herokuapp.com/contribute/2a2234be-6007-403e-962c-d94eeda22806">Contribute with OpenToken</a>
-
+  <div>
+  <div style="width:60%; margin:auto; padding-top: 2em;text-align: center;">
+    <h1>Example External Website</h1>
+    <div>Come contribute to my ICO!</div>
+    <br/>
+    <script>function opentoken_contribute_click(l,e){e.preventDefault();window.open(l,'contribute_opentoken','width=500,height=700,toolbar=0,menubar=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script>
+    <input 
+      type="button"
+      onclick="opentoken_contribute_click('https://app.opentoken.com/contribute/fr8/', event);"
+      value="Contribute with OpenToken"
+      style="background-color:lightgreen; font-size:2em; border-radius: 0.3em; padding 0.3em">
+    </input>
+  </div>
+  </div>
 </body>
 </html>
