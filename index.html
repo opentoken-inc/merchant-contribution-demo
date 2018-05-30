@@ -5,17 +5,30 @@
 </head>
 <body>
   <div>
-  <div style="width:60%; margin:auto; padding-top: 2em;text-align: center;">
+  <div style="width: 90%; max-width:40em; margin:auto; padding-top: 2em;text-align: center;">
     <h1>Example External Website</h1>
-    <div>Come contribute to my ICO!</div>
     <br/>
     <script>function opentoken_contribute_click(l,e){e.preventDefault();window.open(l,'contribute_opentoken','width=500,height=700,toolbar=0,menubar=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script>
-    <input 
-      type="button"
-      onclick="opentoken_contribute_click('https://app.opentoken.com/contribute/fr8/', event);"
-      value="Contribute with OpenToken"
-      style="background-color:lightgreen; font-size:2em; border-radius: 0.3em; padding 0.3em">
-    </input>
+    <div style="padding:1.5em; border:1px solid">
+    <h4>Send Money to my cool ICO!</h4>
+    <button
+      style="background-color:lightgreen; font-size:2em; border-radius: 0.3em; padding 0.3em"
+      onclick="opentoken_contribute_click('https://app.opentoken.com/contribute/fr8/', event);" >
+      Contribute with OpenToken
+    </button>
+    </div>
+
+    <br />
+
+    <div style="padding:1.5em; border:1px solid">
+    <h4>Get whitelisted for my cool ICO!</h4>
+    <button
+      style="background-color:lightgreen; font-size:2em; border-radius: 0.3em; padding 0.3em"
+      onclick="opentoken_contribute_click('https://app.opentoken.com/contribute/fr8-future/', event);" >
+      Reserve with OpenToken
+    </button>
+    </div>
+
   </div>
   </div>
 </body>
